@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB6D7811A6459CB003B6EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB6D7801A6459CB003B6EEA /* AppDelegate.m */; };
+		DDB6D7831A6459CB003B6EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB6D7821A6459CB003B6EEA /* main.m */; };
+		DDB6D7851A6459CB003B6EEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB6D7841A6459CB003B6EEA /* Images.xcassets */; };
+		DDB6D7881A6459CB003B6EEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDB6D7861A6459CB003B6EEA /* MainMenu.xib */; };
+		DDB6D7A51A645A12003B6EEA /* AppleRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6D7A21A6459FF003B6EEA /* AppleRemote.framework */; };
+		DDB6D7A71A645A14003B6EEA /* AppleRemote.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6D7A21A6459FF003B6EEA /* AppleRemote.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDB6D7BF1A646B42003B6EEA /* GRAppleRemoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB6D7BE1A646B42003B6EEA /* GRAppleRemoteView.m */; };
+		DDB6D7C51A646BCF003B6EEA /* GRDeviceSimulatorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB6D7C41A646BCF003B6EEA /* GRDeviceSimulatorWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDB6D7A11A6459FF003B6EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB6D79D1A6459FF003B6EEA /* AppleRemote.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DDB6D7551A64599C003B6EEA;
+			remoteInfo = AppleRemote;
+		};
+		DDB6D7A31A645A0E003B6EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB6D79D1A6459FF003B6EEA /* AppleRemote.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB6D7541A64599C003B6EEA;
+			remoteInfo = AppleRemote;
+		};
+		DDB6D7A81A645A14003B6EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB6D79D1A6459FF003B6EEA /* AppleRemote.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB6D7541A64599C003B6EEA;
+			remoteInfo = AppleRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDB6D7AA1A645A14003B6EEA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DDB6D7A71A645A14003B6EEA /* AppleRemote.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDB6D77A1A6459CB003B6EEA /* Apple Remote Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Remote Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB6D77E1A6459CB003B6EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB6D77F1A6459CB003B6EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDB6D7801A6459CB003B6EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDB6D7821A6459CB003B6EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDB6D7841A6459CB003B6EEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDB6D7871A6459CB003B6EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DDB6D79D1A6459FF003B6EEA /* AppleRemote.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppleRemote.xcodeproj; path = ../AppleRemote/AppleRemote.xcodeproj; sourceTree = "<group>"; };
+		DDB6D7BD1A646B42003B6EEA /* GRAppleRemoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAppleRemoteView.h; sourceTree = "<group>"; };
+		DDB6D7BE1A646B42003B6EEA /* GRAppleRemoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAppleRemoteView.m; sourceTree = "<group>"; };
+		DDB6D7C31A646BCF003B6EEA /* GRDeviceSimulatorWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDeviceSimulatorWindow.h; sourceTree = "<group>"; };
+		DDB6D7C41A646BCF003B6EEA /* GRDeviceSimulatorWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDeviceSimulatorWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB6D7771A6459CB003B6EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6D7A51A645A12003B6EEA /* AppleRemote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB6D7711A6459CB003B6EEA = {
+			isa = PBXGroup;
+			children = (
+				DDB6D79D1A6459FF003B6EEA /* AppleRemote.xcodeproj */,
+				DDB6D77C1A6459CB003B6EEA /* Apple Remote Demo */,
+				DDB6D77B1A6459CB003B6EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB6D77B1A6459CB003B6EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D77A1A6459CB003B6EEA /* Apple Remote Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB6D77C1A6459CB003B6EEA /* Apple Remote Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7C01A646BB0003B6EEA /* Apple Remote Visualization */,
+				DDB6D77F1A6459CB003B6EEA /* AppDelegate.h */,
+				DDB6D7801A6459CB003B6EEA /* AppDelegate.m */,
+				DDB6D7841A6459CB003B6EEA /* Images.xcassets */,
+				DDB6D7861A6459CB003B6EEA /* MainMenu.xib */,
+				DDB6D77D1A6459CB003B6EEA /* Supporting Files */,
+			);
+			path = "Apple Remote Demo";
+			sourceTree = "<group>";
+		};
+		DDB6D77D1A6459CB003B6EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D77E1A6459CB003B6EEA /* Info.plist */,
+				DDB6D7821A6459CB003B6EEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDB6D79E1A6459FF003B6EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7A21A6459FF003B6EEA /* AppleRemote.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB6D7C01A646BB0003B6EEA /* Apple Remote Visualization */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7BD1A646B42003B6EEA /* GRAppleRemoteView.h */,
+				DDB6D7BE1A646B42003B6EEA /* GRAppleRemoteView.m */,
+				DDB6D7C31A646BCF003B6EEA /* GRDeviceSimulatorWindow.h */,
+				DDB6D7C41A646BCF003B6EEA /* GRDeviceSimulatorWindow.m */,
+			);
+			name = "Apple Remote Visualization";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB6D7791A6459CB003B6EEA /* Apple Remote Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB6D7971A6459CB003B6EEA /* Build configuration list for PBXNativeTarget "Apple Remote Demo" */;
+			buildPhases = (
+				DDB6D7761A6459CB003B6EEA /* Sources */,
+				DDB6D7771A6459CB003B6EEA /* Frameworks */,
+				DDB6D7781A6459CB003B6EEA /* Resources */,
+				DDB6D7AA1A645A14003B6EEA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB6D7A41A645A0E003B6EEA /* PBXTargetDependency */,
+				DDB6D7A91A645A14003B6EEA /* PBXTargetDependency */,
+			);
+			name = "Apple Remote Demo";
+			productName = "Apple Remote Demo";
+			productReference = DDB6D77A1A6459CB003B6EEA /* Apple Remote Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB6D7721A6459CB003B6EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DDB6D7791A6459CB003B6EEA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DDB6D7751A6459CB003B6EEA /* Build configuration list for PBXProject "Apple Remote Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB6D7711A6459CB003B6EEA;
+			productRefGroup = DDB6D77B1A6459CB003B6EEA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DDB6D79E1A6459FF003B6EEA /* Products */;
+					ProjectRef = DDB6D79D1A6459FF003B6EEA /* AppleRemote.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DDB6D7791A6459CB003B6EEA /* Apple Remote Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DDB6D7A21A6459FF003B6EEA /* AppleRemote.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AppleRemote.framework;
+			remoteRef = DDB6D7A11A6459FF003B6EEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB6D7781A6459CB003B6EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6D7851A6459CB003B6EEA /* Images.xcassets in Resources */,
+				DDB6D7881A6459CB003B6EEA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB6D7761A6459CB003B6EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6D7831A6459CB003B6EEA /* main.m in Sources */,
+				DDB6D7C51A646BCF003B6EEA /* GRDeviceSimulatorWindow.m in Sources */,
+				DDB6D7811A6459CB003B6EEA /* AppDelegate.m in Sources */,
+				DDB6D7BF1A646B42003B6EEA /* GRAppleRemoteView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB6D7A41A645A0E003B6EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppleRemote;
+			targetProxy = DDB6D7A31A645A0E003B6EEA /* PBXContainerItemProxy */;
+		};
+		DDB6D7A91A645A14003B6EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppleRemote;
+			targetProxy = DDB6D7A81A645A14003B6EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDB6D7861A6459CB003B6EEA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB6D7871A6459CB003B6EEA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB6D7951A6459CB003B6EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDB6D7961A6459CB003B6EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDB6D7981A6459CB003B6EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Apple Remote Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB6D7991A6459CB003B6EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Apple Remote Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB6D7751A6459CB003B6EEA /* Build configuration list for PBXProject "Apple Remote Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB6D7951A6459CB003B6EEA /* Debug */,
+				DDB6D7961A6459CB003B6EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB6D7971A6459CB003B6EEA /* Build configuration list for PBXNativeTarget "Apple Remote Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB6D7981A6459CB003B6EEA /* Debug */,
+				DDB6D7991A6459CB003B6EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB6D7721A6459CB003B6EEA /* Project object */;
+}

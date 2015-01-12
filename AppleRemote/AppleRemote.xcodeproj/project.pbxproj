@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB6D75B1A64599C003B6EEA /* AppleRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6D75A1A64599C003B6EEA /* AppleRemote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB6D7AE1A645A6F003B6EEA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6D7AB1A645A60003B6EEA /* IOKit.framework */; };
+		DDB6D7B41A645AF5003B6EEA /* HIDRemoteControlDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6D7B01A645AF5003B6EEA /* HIDRemoteControlDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB6D7B51A645AF5003B6EEA /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB6D7B11A645AF5003B6EEA /* HIDRemoteControlDevice.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDB6D7B61A645AF5003B6EEA /* RemoteControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6D7B21A645AF5003B6EEA /* RemoteControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB6D7B71A645AF5003B6EEA /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB6D7B31A645AF5003B6EEA /* RemoteControl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDB6D7B91A645B4D003B6EEA /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB6D7B81A645B4D003B6EEA /* AppleRemote.m */; };
+		DDB6D7BC1A645D52003B6EEA /* AppleRemoteMapping.map in Resources */ = {isa = PBXBuildFile; fileRef = DDB6D7BA1A645CD4003B6EEA /* AppleRemoteMapping.map */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB6D7551A64599C003B6EEA /* AppleRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppleRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB6D7591A64599C003B6EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB6D75A1A64599C003B6EEA /* AppleRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		DDB6D7AB1A645A60003B6EEA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		DDB6D7B01A645AF5003B6EEA /* HIDRemoteControlDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemoteControlDevice.h; sourceTree = "<group>"; };
+		DDB6D7B11A645AF5003B6EEA /* HIDRemoteControlDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemoteControlDevice.m; sourceTree = "<group>"; };
+		DDB6D7B21A645AF5003B6EEA /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		DDB6D7B31A645AF5003B6EEA /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		DDB6D7B81A645B4D003B6EEA /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		DDB6D7BA1A645CD4003B6EEA /* AppleRemoteMapping.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = AppleRemoteMapping.map; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB6D7511A64599C003B6EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6D7AE1A645A6F003B6EEA /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB6D74B1A64599C003B6EEA = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7AD1A645A67003B6EEA /* Frameworks */,
+				DDB6D7571A64599C003B6EEA /* AppleRemote */,
+				DDB6D7561A64599C003B6EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB6D7561A64599C003B6EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7551A64599C003B6EEA /* AppleRemote.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB6D7571A64599C003B6EEA /* AppleRemote */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7AF1A645ABD003B6EEA /* Internal Classes */,
+				DDB6D75A1A64599C003B6EEA /* AppleRemote.h */,
+				DDB6D7581A64599C003B6EEA /* Supporting Files */,
+				DDB6D7B81A645B4D003B6EEA /* AppleRemote.m */,
+			);
+			path = AppleRemote;
+			sourceTree = "<group>";
+		};
+		DDB6D7581A64599C003B6EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7BA1A645CD4003B6EEA /* AppleRemoteMapping.map */,
+				DDB6D7591A64599C003B6EEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDB6D7AD1A645A67003B6EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7AB1A645A60003B6EEA /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDB6D7AF1A645ABD003B6EEA /* Internal Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6D7B01A645AF5003B6EEA /* HIDRemoteControlDevice.h */,
+				DDB6D7B11A645AF5003B6EEA /* HIDRemoteControlDevice.m */,
+				DDB6D7B21A645AF5003B6EEA /* RemoteControl.h */,
+				DDB6D7B31A645AF5003B6EEA /* RemoteControl.m */,
+			);
+			path = "Internal Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DDB6D7521A64599C003B6EEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6D7B41A645AF5003B6EEA /* HIDRemoteControlDevice.h in Headers */,
+				DDB6D7B61A645AF5003B6EEA /* RemoteControl.h in Headers */,
+				DDB6D75B1A64599C003B6EEA /* AppleRemote.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DDB6D7541A64599C003B6EEA /* AppleRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB6D76B1A64599C003B6EEA /* Build configuration list for PBXNativeTarget "AppleRemote" */;
+			buildPhases = (
+				DDB6D7501A64599C003B6EEA /* Sources */,
+				DDB6D7511A64599C003B6EEA /* Frameworks */,
+				DDB6D7521A64599C003B6EEA /* Headers */,
+				DDB6D7531A64599C003B6EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleRemote;
+			productName = AppleRemote;
+			productReference = DDB6D7551A64599C003B6EEA /* AppleRemote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB6D74C1A64599C003B6EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DDB6D7541A64599C003B6EEA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DDB6D74F1A64599C003B6EEA /* Build configuration list for PBXProject "AppleRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDB6D74B1A64599C003B6EEA;
+			productRefGroup = DDB6D7561A64599C003B6EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB6D7541A64599C003B6EEA /* AppleRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB6D7531A64599C003B6EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6D7BC1A645D52003B6EEA /* AppleRemoteMapping.map in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB6D7501A64599C003B6EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6D7B51A645AF5003B6EEA /* HIDRemoteControlDevice.m in Sources */,
+				DDB6D7B91A645B4D003B6EEA /* AppleRemote.m in Sources */,
+				DDB6D7B71A645AF5003B6EEA /* RemoteControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDB6D7691A64599C003B6EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDB6D76A1A64599C003B6EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDB6D76C1A64599C003B6EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AppleRemote/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDB6D76D1A64599C003B6EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AppleRemote/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB6D74F1A64599C003B6EEA /* Build configuration list for PBXProject "AppleRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB6D7691A64599C003B6EEA /* Debug */,
+				DDB6D76A1A64599C003B6EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB6D76B1A64599C003B6EEA /* Build configuration list for PBXNativeTarget "AppleRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB6D76C1A64599C003B6EEA /* Debug */,
+				DDB6D76D1A64599C003B6EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB6D74C1A64599C003B6EEA /* Project object */;
+}
