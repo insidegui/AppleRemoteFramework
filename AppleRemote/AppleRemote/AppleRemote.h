@@ -32,7 +32,7 @@ typedef NS_ENUM(int, AppleRemoteListeningMode){
 @interface AppleRemote : NSObject
 
 /*!
- @brief Returns an AppleRemote instance, if IR is not available, returns nil
+ @brief Returns an AppleRemote instance
  @discussion
  This returns an AppleRemote instance which you can use to listen to Apple Remote events
  * @warning Don't forget to set the pressEventReceiver and releaseEventReceiver blocks
@@ -40,7 +40,7 @@ typedef NS_ENUM(int, AppleRemoteListeningMode){
 + (AppleRemote *)remoteWithListeningMode:(AppleRemoteListeningMode)mode;
 
 /*!
- @brief Sets the remote's listening mode
+ @brief The remote's listening mode
  */
 @property (nonatomic, assign) AppleRemoteListeningMode listeningMode;
 
