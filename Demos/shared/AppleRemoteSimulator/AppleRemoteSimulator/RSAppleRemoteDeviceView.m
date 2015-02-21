@@ -1,14 +1,38 @@
 //
-//  GRAppleRemoteView.m
-//  Apple Remote Demo
+//  RSAppleRemoteDeviceView
 //
-//  Created by Guilherme Rambo on 12/01/15.
+//  Created by Guilherme Rambo on 21/02/15.
 //  Copyright (c) 2015 Guilherme Rambo. All rights reserved.
 //
 
-#import "GRAppleRemoteView.h"
+#import "RSAppleRemoteDeviceView.h"
 
-@implementation GRAppleRemoteView
+typedef enum _RemoteControlEventIdentifier {
+    // normal events
+    kRemoteButtonPlus				=1<<1,
+    kRemoteButtonMinus				=1<<2,
+    kRemoteButtonMenu				=1<<3,
+    kRemoteButtonPlay				=1<<4,
+    kRemoteButtonRight				=1<<5,
+    kRemoteButtonLeft				=1<<6,
+    
+    // hold events
+    kRemoteButtonPlus_Hold			=1<<7,
+    kRemoteButtonMinus_Hold			=1<<8,
+    kRemoteButtonMenu_Hold			=1<<9,
+    kRemoteButtonPlay_Hold			=1<<10,
+    kRemoteButtonRight_Hold			=1<<11,
+    kRemoteButtonLeft_Hold			=1<<12,
+    
+    // special events (not supported by all devices)
+    kRemoteControl_Switched			=1<<13,
+    
+    // new button
+    kRemoteButtonEnter              =1<<14,
+    kRemoteButtonEnter_Hold         =1<<15,
+} RemoteControlEventIdentifier;
+
+@implementation RSAppleRemoteDeviceView
 {
     NSMutableArray *_events;
 }
@@ -20,7 +44,7 @@
     [self setNeedsDisplay:YES];
 }
 
-- (void)displayEvent:(RemoteControlEventIdentifier)event
+- (void)displayEvent:(int)event
 {
     if (!_events) _events = [NSMutableArray new];
     
@@ -43,7 +67,7 @@
     [self setNeedsDisplay:YES];
 }
 
-- (void)hideEvent:(RemoteControlEventIdentifier)event
+- (void)hideEvent:(int)event
 {
     NSNumber *theEvent = @(event);
     if (![_events containsObject:theEvent]) return;

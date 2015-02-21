@@ -1,14 +1,13 @@
 //
-//  GRDeviceSimulatorWindow.m
-//  Apple Remote Demo
+//  RSRemoteDeviceSimulatorWindow
 //
-//  Created by Guilherme Rambo on 12/01/15.
+//  Created by Guilherme Rambo on 21/02/15.
 //  Copyright (c) 2015 Guilherme Rambo. All rights reserved.
 //
 
-#import "GRDeviceSimulatorWindow.h"
+#import "RSRemoteDeviceSimulatorWindow.h"
 
-@implementation GRDeviceSimulatorWindow
+@implementation RSRemoteDeviceSimulatorWindow
 
 - (void)awakeFromNib
 {

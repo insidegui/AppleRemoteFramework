@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDDB44B71A98DEF90047F7B7 /* AppleRemoteSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDB44B61A98DEF90047F7B7 /* AppleRemoteSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDDB44D11A98DF180047F7B7 /* RSAppleRemoteDeviceView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDB44CD1A98DF180047F7B7 /* RSAppleRemoteDeviceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDDB44D21A98DF180047F7B7 /* RSAppleRemoteDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDB44CE1A98DF180047F7B7 /* RSAppleRemoteDeviceView.m */; };
+		DDDB44D31A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDB44CF1A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDDB44D41A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDB44D01A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDDB44B11A98DEF90047F7B7 /* AppleRemoteSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppleRemoteSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDB44B51A98DEF90047F7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDB44B61A98DEF90047F7B7 /* AppleRemoteSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleRemoteSimulator.h; sourceTree = "<group>"; };
+		DDDB44CD1A98DF180047F7B7 /* RSAppleRemoteDeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAppleRemoteDeviceView.h; sourceTree = "<group>"; };
+		DDDB44CE1A98DF180047F7B7 /* RSAppleRemoteDeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAppleRemoteDeviceView.m; sourceTree = "<group>"; };
+		DDDB44CF1A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRemoteDeviceSimulatorWindow.h; sourceTree = "<group>"; };
+		DDDB44D01A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRemoteDeviceSimulatorWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDB44AD1A98DEF90047F7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDB44A71A98DEF90047F7B7 = {
+			isa = PBXGroup;
+			children = (
+				DDDB44B31A98DEF90047F7B7 /* AppleRemoteSimulator */,
+				DDDB44B21A98DEF90047F7B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDB44B21A98DEF90047F7B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB44B11A98DEF90047F7B7 /* AppleRemoteSimulator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDB44B31A98DEF90047F7B7 /* AppleRemoteSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB44CD1A98DF180047F7B7 /* RSAppleRemoteDeviceView.h */,
+				DDDB44CE1A98DF180047F7B7 /* RSAppleRemoteDeviceView.m */,
+				DDDB44CF1A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.h */,
+				DDDB44D01A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.m */,
+				DDDB44B61A98DEF90047F7B7 /* AppleRemoteSimulator.h */,
+				DDDB44B41A98DEF90047F7B7 /* Supporting Files */,
+			);
+			path = AppleRemoteSimulator;
+			sourceTree = "<group>";
+		};
+		DDDB44B41A98DEF90047F7B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB44B51A98DEF90047F7B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DDDB44AE1A98DEF90047F7B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDB44B71A98DEF90047F7B7 /* AppleRemoteSimulator.h in Headers */,
+				DDDB44D31A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.h in Headers */,
+				DDDB44D11A98DF180047F7B7 /* RSAppleRemoteDeviceView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DDDB44B01A98DEF90047F7B7 /* AppleRemoteSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDB44C71A98DEF90047F7B7 /* Build configuration list for PBXNativeTarget "AppleRemoteSimulator" */;
+			buildPhases = (
+				DDDB44AC1A98DEF90047F7B7 /* Sources */,
+				DDDB44AD1A98DEF90047F7B7 /* Frameworks */,
+				DDDB44AE1A98DEF90047F7B7 /* Headers */,
+				DDDB44AF1A98DEF90047F7B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleRemoteSimulator;
+			productName = AppleRemoteSimulator;
+			productReference = DDDB44B11A98DEF90047F7B7 /* AppleRemoteSimulator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDB44A81A98DEF90047F7B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DDDB44B01A98DEF90047F7B7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DDDB44AB1A98DEF90047F7B7 /* Build configuration list for PBXProject "AppleRemoteSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDDB44A71A98DEF90047F7B7;
+			productRefGroup = DDDB44B21A98DEF90047F7B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDB44B01A98DEF90047F7B7 /* AppleRemoteSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDB44AF1A98DEF90047F7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDB44AC1A98DEF90047F7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDB44D21A98DF180047F7B7 /* RSAppleRemoteDeviceView.m in Sources */,
+				DDDB44D41A98DF180047F7B7 /* RSRemoteDeviceSimulatorWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDDB44C51A98DEF90047F7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDDB44C61A98DEF90047F7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDDB44C81A98DEF90047F7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AppleRemoteSimulator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDDB44C91A98DEF90047F7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AppleRemoteSimulator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDB44AB1A98DEF90047F7B7 /* Build configuration list for PBXProject "AppleRemoteSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDB44C51A98DEF90047F7B7 /* Debug */,
+				DDDB44C61A98DEF90047F7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDB44C71A98DEF90047F7B7 /* Build configuration list for PBXNativeTarget "AppleRemoteSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDB44C81A98DEF90047F7B7 /* Debug */,
+				DDDB44C91A98DEF90047F7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDB44A81A98DEF90047F7B7 /* Project object */;
+}

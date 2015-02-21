@@ -9,15 +9,14 @@
 #import "AppDelegate.h"
 
 @import AppleRemote;
-
-#import "GRAppleRemoteView.h"
+@import AppleRemoteSimulator;
 
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
 @property (strong) AppleRemote *remote;
 
-@property (readonly) GRAppleRemoteView *appleRemoteView;
+@property (readonly) RSAppleRemoteDeviceView *appleRemoteView;
 
 @end
 
@@ -43,9 +42,9 @@
     }];
 }
 
-- (GRAppleRemoteView *)appleRemoteView
+- (RSAppleRemoteDeviceView *)appleRemoteView
 {
-    return (GRAppleRemoteView *)self.window.contentView;
+    return (RSAppleRemoteDeviceView *)self.window.contentView;
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

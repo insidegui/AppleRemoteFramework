@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
     </dependencies>
@@ -666,14 +666,14 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="Apple Remote Demo" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g" customClass="GRDeviceSimulatorWindow">
+        <window title="Apple Remote Demo" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g" customClass="RSRemoteDeviceSimulatorWindow">
             <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="816" y="162" width="175" height="700"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
             <value key="minSize" type="size" width="175" height="700"/>
             <value key="maxSize" type="size" width="175" height="700"/>
-            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ" customClass="GRAppleRemoteView">
+            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ" customClass="RSAppleRemoteDeviceView">
                 <rect key="frame" x="0.0" y="0.0" width="175" height="700"/>
                 <autoresizingMask key="autoresizingMask"/>
             </view>
