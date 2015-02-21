@@ -8,6 +8,8 @@ The functionality is wrapped in a single class: `AppleRemote`. Take a look at th
 
 The sample app included shows a really good example of how It can be used, but the basic usage is as shown below:
 
+### Objective-C
+
 ```objective-c
 // setup an AppleRemote
 self.remote = [AppleRemote remoteWithListeningMode:AppleRemoteListenWhenActiveApp];
@@ -23,13 +25,30 @@ self.remote = [AppleRemote remoteWithListeningMode:AppleRemoteListenWhenActiveAp
 }];
 ```
 
+### Swift
+
+```swift
+// setup an AppleRemote
+let remote = AppleRemote(listeningMode: .ListenWhenActiveApp)
+
+// set the block to be called when a button is pressed
+remote.pressEventReceiver = { eventId in
+    // do something with eventId, probably a switch :)
+}
+
+// set the block to be called when a button is released
+remote.releaseEventReceiver = { eventId in
+    // do something with eventId
+}
+```
+
 ![demo app screenshot](https://raw.github.com/insidegui/AppleRemoteFramework/master/screenshot.png)
 
-### Thanks
+#### Thanks
 
 This framework is based on classes created by **Martin Kahr**, thanks Martin for your great work.
 
-### Contributing
+#### Contributing
 
 You can contribute with code, just send me a pull request, or open an issue for any bug/enhancement. Please try to code in a similar way to the code that's already been written.
 
